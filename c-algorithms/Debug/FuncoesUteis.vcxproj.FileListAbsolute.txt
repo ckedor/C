@@ -1,0 +1,2 @@
+D:\Courses\Repositorios\utils\c-utils\Debug\C.exe
+D:\Courses\Repositorios\utils\c-utils\Debug\C.pdb

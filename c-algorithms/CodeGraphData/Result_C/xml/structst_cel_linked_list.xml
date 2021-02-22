@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structst_cel_linked_list" kind="struct" prot="public">
+    <compoundname>stCelLinkedList</compoundname>
+    <includes refid="listas__encadeadas_8h" local="no">listas_encadeadas.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structst_cel_linked_list_1ad8c2a6047622243e2d04e790f0f0887a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int stCelLinkedList::conteudo</definition>
+        <argsstring></argsstring>
+        <name>conteudo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h" line="6" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structst_cel_linked_list_1aa515f6757cb5a3ec74b9b59a4857223e" prot="public" static="no" mutable="no">
+        <type>struct cel *</type>
+        <definition>struct cel* stCelLinkedList::stSeg</definition>
+        <argsstring></argsstring>
+        <name>stSeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h" line="7" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h" line="5" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="structst_cel_linked_list_1ad8c2a6047622243e2d04e790f0f0887a" prot="public" virt="non-virtual"><scope>stCelLinkedList</scope><name>conteudo</name></member>
+      <member refid="structst_cel_linked_list_1aa515f6757cb5a3ec74b9b59a4857223e" prot="public" virt="non-virtual"><scope>stCelLinkedList</scope><name>stSeg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

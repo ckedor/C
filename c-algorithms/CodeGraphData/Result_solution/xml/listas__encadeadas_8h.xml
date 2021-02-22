@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="listas__encadeadas_8h" kind="file">
+    <compoundname>listas_encadeadas.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includedby refid="main_8c" local="yes">D:/Courses/Repositorios/utils/c-utils/main.c</includedby>
+    <includedby refid="listas__encadeadas_8c" local="yes">D:/Courses/Repositorios/utils/c-utils/src/listas_encadeadas.c</includedby>
+    <incdepgraph>
+      <node id="12">
+        <label>D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h</label>
+        <link refid="listas_encadeadas.h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>stdlib.h</label>
+      </node>
+      <node id="13">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="15">
+        <label>D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h</label>
+        <link refid="listas_encadeadas.h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>D:/Courses/Repositorios/utils/c-utils/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="17">
+        <label>D:/Courses/Repositorios/utils/c-utils/src/listas_encadeadas.c</label>
+        <link refid="listas__encadeadas_8c"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structst_cel_linked_list" prot="public">stCelLinkedList</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="listas__encadeadas_8h_1a8d0c29e8f40d06aa197c271aadf58996" prot="public" static="no">
+        <type>struct <ref refid="structst_cel_linked_list" kindref="compound">stCelLinkedList</ref></type>
+        <definition>typedef struct stCelLinkedList celula</definition>
+        <argsstring></argsstring>
+        <name>celula</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h" line="8" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*Lista<sp/>Encadeada*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="structst_cel_linked_list" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structst_cel_linked_list" kindref="compound">stCelLinkedList</ref><sp/>{</highlight></codeline>
+<codeline lineno="6" refid="structst_cel_linked_list_1ad8c2a6047622243e2d04e790f0f0887a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structst_cel_linked_list_1ad8c2a6047622243e2d04e790f0f0887a" kindref="member">conteudo</ref>;</highlight></codeline>
+<codeline lineno="7" refid="structst_cel_linked_list_1aa515f6757cb5a3ec74b9b59a4857223e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">cel*<sp/><ref refid="structst_cel_linked_list_1aa515f6757cb5a3ec74b9b59a4857223e" kindref="member">stSeg</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}<ref refid="listas__encadeadas_8h_1a8d0c29e8f40d06aa197c271aadf58996" kindref="member">celula</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/Courses/Repositorios/utils/c-utils/inc/listas_encadeadas.h"/>
+  </compounddef>
+</doxygen>

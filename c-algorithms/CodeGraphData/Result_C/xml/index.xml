@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="structst_binary_tree_cel" kind="struct"><name>stBinaryTreeCel</name>
+    <member refid="structst_binary_tree_cel_1a2fce713abdfe488d9c1ba67ae0cddd60" kind="variable"><name>conteudo</name></member>
+    <member refid="structst_binary_tree_cel_1ab35a9b0fa4f708721fa797c498b3f2b8" kind="variable"><name>esq</name></member>
+    <member refid="structst_binary_tree_cel_1aa3114384d6b18f5f8d16dac7f22ab170" kind="variable"><name>dir</name></member>
+  </compound>
+  <compound refid="structst_cel_linked_list" kind="struct"><name>stCelLinkedList</name>
+    <member refid="structst_cel_linked_list_1ad8c2a6047622243e2d04e790f0f0887a" kind="variable"><name>conteudo</name></member>
+    <member refid="structst_cel_linked_list_1aa515f6757cb5a3ec74b9b59a4857223e" kind="variable"><name>stSeg</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="arvores__binarias_8h" kind="file"><name>arvores_binarias.h</name>
+    <member refid="arvores__binarias_8h_1ac4a301f34687e24422db231234b2a0d3" kind="typedef"><name>stArvore</name></member>
+    <member refid="arvores__binarias_8h_1ae0f6218f4be61b14d426bd6f62a787e9" kind="function"><name>BinaryTreeErd</name></member>
+  </compound>
+  <compound refid="enum_8h" kind="file"><name>enum.h</name>
+    <member refid="enum_8h_1a82205363f829912cdb945d8cbfa2e062" kind="function"><name>SubseqLex</name></member>
+  </compound>
+  <compound refid="listas__encadeadas_8h" kind="file"><name>listas_encadeadas.h</name>
+    <member refid="listas__encadeadas_8h_1a8d0c29e8f40d06aa197c271aadf58996" kind="typedef"><name>celula</name></member>
+  </compound>
+  <compound refid="vetores_8h" kind="file"><name>vetores.h</name>
+    <member refid="vetores_8h_1aceca98ef0ad56ff9f053a3f3619e037c" kind="function"><name>Vetores_iBusca</name></member>
+    <member refid="vetores_8h_1a3c97b205f2031f8bb5c66348ff7260cd" kind="function"><name>Vetores_iRemove</name></member>
+    <member refid="vetores_8h_1ac200c46107f33c147c0e02ef82291a92" kind="function"><name>Vetores_iInsere</name></member>
+    <member refid="vetores_8h_1a943871f80ef71efca8f7aa1b7c6096ae" kind="function"><name>Vetores_iRemoveZeros</name></member>
+  </compound>
+  <compound refid="main_8c" kind="file"><name>main.c</name>
+    <member refid="main_8c_1ab98dbf196398d8aeaa4ac97f87ae54a1" kind="function"><name>MainMenu</name></member>
+    <member refid="main_8c_1ac0936cf95ed3766d3ef8fcc0c3ff796d" kind="function"><name>PrintWelcomeMsg</name></member>
+    <member refid="main_8c_1afc8a4ddd866c05a17669681f57060685" kind="function"><name>PrintGoodbyeMsg</name></member>
+    <member refid="main_8c_1a8e86355d7b0e4ea4cebc68489bc8cbfb" kind="function"><name>Utils_Delay</name></member>
+    <member refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="menu__defines_8h" kind="file"><name>menu_defines.h</name>
+    <member refid="menu__defines_8h_1aaf0d4b4a6b608d2bc99c436c97d73cfd" kind="enum"><name>MainMenuOptions</name></member>
+    <member refid="menu__defines_8h_1aaf0d4b4a6b608d2bc99c436c97d73cfda7a10b5d68d31711288e1fe0fa17dbf4f" kind="enumvalue"><name>EXIT</name></member>
+  </compound>
+  <compound refid="arvores__binarias_8c" kind="file"><name>arvores_binarias.c</name>
+    <member refid="arvores__binarias_8c_1ae0f6218f4be61b14d426bd6f62a787e9" kind="function"><name>BinaryTreeErd</name></member>
+  </compound>
+  <compound refid="enum_8c" kind="file"><name>enum.c</name>
+    <member refid="enum_8c_1a82205363f829912cdb945d8cbfa2e062" kind="function"><name>SubseqLex</name></member>
+  </compound>
+  <compound refid="listas__encadeadas_8c" kind="file"><name>listas_encadeadas.c</name>
+  </compound>
+  <compound refid="vetores_8c" kind="file"><name>vetores.c</name>
+    <member refid="vetores_8c_1aceca98ef0ad56ff9f053a3f3619e037c" kind="function"><name>Vetores_iBusca</name></member>
+    <member refid="vetores_8c_1a3c97b205f2031f8bb5c66348ff7260cd" kind="function"><name>Vetores_iRemove</name></member>
+    <member refid="vetores_8c_1ac200c46107f33c147c0e02ef82291a92" kind="function"><name>Vetores_iInsere</name></member>
+    <member refid="vetores_8c_1a943871f80ef71efca8f7aa1b7c6096ae" kind="function"><name>Vetores_iRemoveZeros</name></member>
+  </compound>
+  <compound refid="dir_f116b8f342d1df819d2d6f4254f6785f" kind="dir"><name>D:/Courses/Repositorios/utils/c-utils</name>
+  </compound>
+  <compound refid="dir_0eeb76e7d93e78f50f12f775087f9159" kind="dir"><name>D:/Courses</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_a4a7c3380f40063e517ae80c4429709f" kind="dir"><name>D:/Courses/Repositorios/utils/c-utils/inc</name>
+  </compound>
+  <compound refid="dir_61a71a138c5111bd21481ca055573226" kind="dir"><name>D:/Courses/Repositorios</name>
+  </compound>
+  <compound refid="dir_048d337a34d3f50fa02b852340803607" kind="dir"><name>D:/Courses/Repositorios/utils/c-utils/src</name>
+  </compound>
+  <compound refid="dir_d054bbddd308e5361699bbd251fa258a" kind="dir"><name>D:/Courses/Repositorios/utils</name>
+  </compound>
+</doxygenindex>

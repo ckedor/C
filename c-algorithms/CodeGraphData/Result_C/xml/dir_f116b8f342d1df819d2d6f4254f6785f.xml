@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f116b8f342d1df819d2d6f4254f6785f" kind="dir">
+    <compoundname>D:/Courses/Repositorios/utils/c-utils</compoundname>
+    <innerdir refid="dir_a4a7c3380f40063e517ae80c4429709f">D:/Courses/Repositorios/utils/c-utils/inc</innerdir>
+    <innerdir refid="dir_048d337a34d3f50fa02b852340803607">D:/Courses/Repositorios/utils/c-utils/src</innerdir>
+    <innerfile refid="main_8c">main.c</innerfile>
+    <innerfile refid="menu__defines_8h">menu_defines.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Courses/Repositorios/utils/c-utils/"/>
+  </compounddef>
+</doxygen>

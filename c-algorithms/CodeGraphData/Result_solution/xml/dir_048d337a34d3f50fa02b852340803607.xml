@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_048d337a34d3f50fa02b852340803607" kind="dir">
+    <compoundname>D:/Courses/Repositorios/utils/c-utils/src</compoundname>
+    <innerfile refid="arvores__binarias_8c">arvores_binarias.c</innerfile>
+    <innerfile refid="enum_8c">enum.c</innerfile>
+    <innerfile refid="listas__encadeadas_8c">listas_encadeadas.c</innerfile>
+    <innerfile refid="vetores_8c">vetores.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Courses/Repositorios/utils/c-utils/src/"/>
+  </compounddef>
+</doxygen>

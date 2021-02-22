@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_61a71a138c5111bd21481ca055573226" kind="dir">
+    <compoundname>D:/Courses/Repositorios</compoundname>
+    <innerdir refid="dir_d054bbddd308e5361699bbd251fa258a">D:/Courses/Repositorios/utils</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Courses/Repositorios/"/>
+  </compounddef>
+</doxygen>

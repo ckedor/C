@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="main_8c" kind="file">
+    <compoundname>main.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes refid="enum_8h" local="yes">.\inc\enum.h</includes>
+    <includes refid="vetores_8h" local="yes">.\inc\vetores.h</includes>
+    <includes refid="listas__encadeadas_8h" local="yes">.\inc\listas_encadeadas.h</includes>
+    <includes refid="arvores__binarias_8h" local="yes">.\inc\arvores_binarias.h</includes>
+    <includes refid="menu__defines_8h" local="yes">.\menu_defines.h</includes>
+    <incdepgraph>
+      <node id="29">
+        <label>stdbool.h</label>
+      </node>
+      <node id="32">
+        <label>.\inc\listas_encadeadas.h</label>
+        <link refid="listas__encadeadas_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>stdlib.h</label>
+      </node>
+      <node id="30">
+        <label>.\inc\enum.h</label>
+        <link refid="enum_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>D:/Courses/Repositorios/utils/c-utils/main.c</label>
+        <link refid="main.c"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>.\inc\arvores_binarias.h</label>
+        <link refid="arvores__binarias_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>time.h</label>
+      </node>
+      <node id="27">
+        <label>math.h</label>
+      </node>
+      <node id="31">
+        <label>.\inc\vetores.h</label>
+        <link refid="vetores_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>.\menu_defines.h</label>
+        <link refid="menu__defines_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8c_1ab98dbf196398d8aeaa4ac97f87ae54a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>MainMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/main.c" line="15" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/main.c" bodystart="33" bodyend="59"/>
+        <references refid="menu__defines_8h_1aaf0d4b4a6b608d2bc99c436c97d73cfda7a10b5d68d31711288e1fe0fa17dbf4f" compoundref="menu__defines_8h" startline="7">EXIT</references>
+        <referencedby refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="main_8c" startline="22" endline="31">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="main_8c_1ac0936cf95ed3766d3ef8fcc0c3ff796d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrintWelcomeMsg</definition>
+        <argsstring>()</argsstring>
+        <name>PrintWelcomeMsg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/main.c" line="16" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/main.c" bodystart="61" bodyend="68"/>
+        <references refid="main_8c_1a8e86355d7b0e4ea4cebc68489bc8cbfb" compoundref="main_8c" startline="80" endline="85">Utils_Delay</references>
+        <referencedby refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="main_8c" startline="22" endline="31">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="main_8c_1afc8a4ddd866c05a17669681f57060685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrintGoodbyeMsg</definition>
+        <argsstring>()</argsstring>
+        <name>PrintGoodbyeMsg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/main.c" line="17" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/main.c" bodystart="70" bodyend="77"/>
+        <references refid="main_8c_1a8e86355d7b0e4ea4cebc68489bc8cbfb" compoundref="main_8c" startline="80" endline="85">Utils_Delay</references>
+        <referencedby refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="main_8c" startline="22" endline="31">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="main_8c_1a8e86355d7b0e4ea4cebc68489bc8cbfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Utils_Delay</definition>
+        <argsstring>(int iSeconds)</argsstring>
+        <name>Utils_Delay</name>
+        <param>
+          <type>int</type>
+          <declname>iSeconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/main.c" line="20" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/main.c" bodystart="80" bodyend="85"/>
+        <referencedby refid="main_8c_1afc8a4ddd866c05a17669681f57060685" compoundref="main_8c" startline="70" endline="77">PrintGoodbyeMsg</referencedby>
+        <referencedby refid="main_8c_1ac0936cf95ed3766d3ef8fcc0c3ff796d" compoundref="main_8c" startline="61" endline="68">PrintWelcomeMsg</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/main.c" line="22" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/main.c" bodystart="22" bodyend="31"/>
+        <references refid="main_8c_1ab98dbf196398d8aeaa4ac97f87ae54a1" compoundref="main_8c" startline="33" endline="59">MainMenu</references>
+        <references refid="main_8c_1afc8a4ddd866c05a17669681f57060685" compoundref="main_8c" startline="70" endline="77">PrintGoodbyeMsg</references>
+        <references refid="main_8c_1ac0936cf95ed3766d3ef8fcc0c3ff796d" compoundref="main_8c" startline="61" endline="68">PrintWelcomeMsg</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Include<sp/>Files<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="enum_8h" kindref="compound">.\inc\enum.h</ref>&quot;</highlight><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vetores_8h" kindref="compound">.\inc\vetores.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="listas__encadeadas_8h" kindref="compound">.\inc\listas_encadeadas.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="arvores__binarias_8h" kindref="compound">.\inc\arvores_binarias.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="menu__defines_8h" kindref="compound">.\menu_defines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ab98dbf196398d8aeaa4ac97f87ae54a1" kindref="member">MainMenu</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ac0936cf95ed3766d3ef8fcc0c3ff796d" kindref="member">PrintWelcomeMsg</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1afc8a4ddd866c05a17669681f57060685" kindref="member">PrintGoodbyeMsg</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Todo:<sp/>jogar<sp/>para<sp/>utils</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1a8e86355d7b0e4ea4cebc68489bc8cbfb" kindref="member">Utils_Delay</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iSeconds);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8c_1ac0936cf95ed3766d3ef8fcc0c3ff796d" kindref="member">PrintWelcomeMsg</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8c_1ab98dbf196398d8aeaa4ac97f87ae54a1" kindref="member">MainMenu</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8c_1afc8a4ddd866c05a17669681f57060685" kindref="member">PrintGoodbyeMsg</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="main_8c_1ab98dbf196398d8aeaa4ac97f87ae54a1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ab98dbf196398d8aeaa4ac97f87ae54a1" kindref="member">MainMenu</ref>()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fSair<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iOpt;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(fSair<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;==================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;=========<sp/>MENU<sp/>PRINCIPAL<sp/>=========\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;==================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;0<sp/>-<sp/>Sair<sp/>\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf_s(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;iOpt);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(iOpt)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="menu__defines_8h_1aaf0d4b4a6b608d2bc99c436c97d73cfda7a10b5d68d31711288e1fe0fa17dbf4f" kindref="member">EXIT</ref>:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fSair<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="main_8c_1ac0936cf95ed3766d3ef8fcc0c3ff796d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ac0936cf95ed3766d3ef8fcc0c3ff796d" kindref="member">PrintWelcomeMsg</ref>()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;==================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;=======<sp/>PROJ<sp/>UTILIDADES<sp/>C<sp/>========\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;=========<sp/>SEJA<sp/>BEM-VINDO<sp/>=========\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;==================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8c_1a8e86355d7b0e4ea4cebc68489bc8cbfb" kindref="member">Utils_Delay</ref>(2);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="main_8c_1afc8a4ddd866c05a17669681f57060685" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1afc8a4ddd866c05a17669681f57060685" kindref="member">PrintGoodbyeMsg</ref>()</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;==================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;============<sp/>ATE<sp/>LOGO!<sp/>===========\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;==================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8c_1a8e86355d7b0e4ea4cebc68489bc8cbfb" kindref="member">Utils_Delay</ref>(2);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//TODO<sp/>COLOCAR<sp/>EM<sp/>UTILS_algo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="main_8c_1a8e86355d7b0e4ea4cebc68489bc8cbfb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1a8e86355d7b0e4ea4cebc68489bc8cbfb" kindref="member">Utils_Delay</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iSeconds)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iMiliSeconds<sp/>=<sp/>1000<sp/>*<sp/>iSeconds;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>clock_t<sp/><sp/>lStartTime<sp/>=<sp/>clock();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(clock()<sp/>&lt;<sp/>lStartTime<sp/>+<sp/>iMiliSeconds)<sp/>{}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Courses/Repositorios/utils/c-utils/main.c"/>
+  </compounddef>
+</doxygen>

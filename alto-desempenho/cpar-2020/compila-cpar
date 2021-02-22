@@ -1,0 +1,3 @@
+./ccpar-2018-1 $1.cpar
+gcc -O4 -w -o $1 $1.c bib-pthreads.o -lpthread -lm 
+

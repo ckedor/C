@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="enum_8h" kind="file">
+    <compoundname>enum.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includedby refid="main_8c" local="yes">D:/Courses/Repositorios/utils/c-utils/main.c</includedby>
+    <includedby refid="enum_8c" local="yes">D:/Courses/Repositorios/utils/c-utils/src/enum.c</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>D:/Courses/Repositorios/utils/c-utils/inc/enum.h</label>
+        <link refid="enum.h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="11">
+        <label>D:/Courses/Repositorios/utils/c-utils/src/enum.c</label>
+        <link refid="enum_8c"/>
+      </node>
+      <node id="9">
+        <label>D:/Courses/Repositorios/utils/c-utils/inc/enum.h</label>
+        <link refid="enum.h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>D:/Courses/Repositorios/utils/c-utils/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="enum_8h_1a82205363f829912cdb945d8cbfa2e062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubseqLex</definition>
+        <argsstring>(int n)</argsstring>
+        <name>SubseqLex</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/inc/enum.h" line="8" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/src/enum.c" bodystart="7" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>----------------------------------------------------------<sp/>*\</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/>Recebe<sp/>n<sp/>&gt;=<sp/>1<sp/>e<sp/>imprime<sp/>todas<sp/>as<sp/>subsequências<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/>não vazias<sp/>de<sp/>1,2,...,n<sp/>em<sp/>ordem<sp/>lexicográfica.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">\*<sp/>----------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="enum_8h_1a82205363f829912cdb945d8cbfa2e062" kindref="member">SubseqLex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+    </programlisting>
+    <location file="D:/Courses/Repositorios/utils/c-utils/inc/enum.h"/>
+  </compounddef>
+</doxygen>

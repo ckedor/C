@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="arvores__binarias_8c" kind="file">
+    <compoundname>arvores_binarias.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes refid="arvores__binarias_8h" local="yes">..\inc\arvores_binarias.h</includes>
+    <incdepgraph>
+      <node id="44">
+        <label>stdbool.h</label>
+      </node>
+      <node id="43">
+        <label>stdlib.h</label>
+      </node>
+      <node id="41">
+        <label>D:/Courses/Repositorios/utils/c-utils/src/arvores_binarias.c</label>
+        <link refid="arvores_binarias.c"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>..\inc\arvores_binarias.h</label>
+        <link refid="arvores__binarias_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="arvores__binarias_8c_1ae0f6218f4be61b14d426bd6f62a787e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BinaryTreeErd</definition>
+        <argsstring>(stArvore r)</argsstring>
+        <name>BinaryTreeErd</name>
+        <param>
+          <type><ref refid="arvores__binarias_8h_1ac4a301f34687e24422db231234b2a0d3" kindref="member">stArvore</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/src/arvores_binarias.c" line="6" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/src/arvores_binarias.c" bodystart="6" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\inc\arvores_binarias.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="arvores__binarias_8h_1ae0f6218f4be61b14d426bd6f62a787e9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="arvores__binarias_8c_1ae0f6218f4be61b14d426bd6f62a787e9" kindref="member">BinaryTreeErd</ref>(<ref refid="structst_binary_tree_cel" kindref="compound">stArvore</ref><sp/>r)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*if<sp/>(r<sp/>!=<sp/>NULL)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BinaryTreeErd(r-&gt;esq);</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;%d\n&quot;,<sp/>r-&gt;conteudo);</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BinaryTreeErd(r-&gt;dir);</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/>}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Courses/Repositorios/utils/c-utils/src/arvores_binarias.c"/>
+  </compounddef>
+</doxygen>

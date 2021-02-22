@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structst_binary_tree_cel" kind="struct" prot="public">
+    <compoundname>stBinaryTreeCel</compoundname>
+    <includes refid="arvores__binarias_8h" local="no">arvores_binarias.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structst_binary_tree_cel_1a2fce713abdfe488d9c1ba67ae0cddd60" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int stBinaryTreeCel::conteudo</definition>
+        <argsstring></argsstring>
+        <name>conteudo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/inc/arvores_binarias.h" line="6" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/inc/arvores_binarias.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structst_binary_tree_cel_1ab35a9b0fa4f708721fa797c498b3f2b8" prot="public" static="no" mutable="no">
+        <type>struct no *</type>
+        <definition>struct no* stBinaryTreeCel::esq</definition>
+        <argsstring></argsstring>
+        <name>esq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/inc/arvores_binarias.h" line="7" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/inc/arvores_binarias.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structst_binary_tree_cel_1aa3114384d6b18f5f8d16dac7f22ab170" prot="public" static="no" mutable="no">
+        <type>struct no *</type>
+        <definition>struct no* stBinaryTreeCel::dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Courses/Repositorios/utils/c-utils/inc/arvores_binarias.h" line="8" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/inc/arvores_binarias.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Courses/Repositorios/utils/c-utils/inc/arvores_binarias.h" line="5" column="1" bodyfile="D:/Courses/Repositorios/utils/c-utils/inc/arvores_binarias.h" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="structst_binary_tree_cel_1a2fce713abdfe488d9c1ba67ae0cddd60" prot="public" virt="non-virtual"><scope>stBinaryTreeCel</scope><name>conteudo</name></member>
+      <member refid="structst_binary_tree_cel_1aa3114384d6b18f5f8d16dac7f22ab170" prot="public" virt="non-virtual"><scope>stBinaryTreeCel</scope><name>dir</name></member>
+      <member refid="structst_binary_tree_cel_1ab35a9b0fa4f708721fa797c498b3f2b8" prot="public" virt="non-virtual"><scope>stBinaryTreeCel</scope><name>esq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

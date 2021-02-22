@@ -1,0 +1,57 @@
+
+/*soma de elementos de um vetor - paralelizada*/
+#include <stdio.h>
+#include "mede_time.h"
+#include <sys/time.h>
+
+#define SIZE 200000000
+
+shared int a[200000000];
+shared int soma;
+shared Semaph S;
+
+/*inicia matriz*/
+task spec init_vetor();
+task body init_vetor()
+{ 
+    int i;
+	forall i = 0 to (SIZE-1){  
+        a[i] = 1;
+    }
+}
+
+
+/*soma dos elementos*/
+task spec soma_elementos();
+task body soma_elementos()
+{
+    int i;
+    forall i = 0 to (SIZE-1){
+        soma = soma + a[i];
+    }
+}
+ 
+main()
+{
+    int nprocs;
+    soma = 0;
+    
+    printf ("Numero de processadores: ");
+    scanf("%d",&nprocs);
+    
+    create_sem(&S,1);
+    
+    create nprocs, init_vetor();
+    wait_all();
+    
+    TIMER_CLEAR;
+    TIMER_START; 
+
+    create nprocs, soma_elementos();
+    wait_all();
+    TIMER_STOP;
+    printf ("TEMPO [%d]: %12.7f\n",SIZE,TIMER_ELAPSED );
+
+    rem_sem(&S);
+    printf("soma=%d \n",soma);
+}
